@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif; /* Web-safe font for body text */
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333; /* Change this to your desired text color */
+}
+
+nav {
+    background-color: #007bff; /* Change this to your desired navigation background color */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Display items inline */
+    margin-right: 20px; /* Space between items */
+}
+
+nav a {
+    color: white; /* Change this to your desired link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Change this to your desired hover color */
+}
+
+nav a:visited {
+    color: #ccc; /* Change this to your desired visited link color */
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Georgia', serif; /* Web-safe font for headings */
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.user-info {
+    margin: 10px 0;
+}
+
+.logo {
+    max-width: 150px; /* Adjust logo size as needed */
+    margin-top: 10px;
+}
+
+main {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.color-box {
+    padding: 10px;
+    margin: 5px 0;
+    color: white; /* Text color for visibility */
+    font-weight: bold;
+}
+
+.primary-color {
+    background-color: #90ee90; /* Light Green */
+}
+
+.secondary-color {
+    background-color: #007bff; /* Blue */
+}
+
+.accent-color {
+    background-color: #ffffff; /* White */
+    color: black; /* Change text color to black for better contrast */
+    border: 1px solid black; /* Thin black border */
+}
