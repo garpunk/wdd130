@@ -1,5 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+
 body {
-    font-family: Arial, sans-serif; /* Web-safe font for body text */
+    font-family: 'Poppins', sans-serif; /* Web-safe font for body text */
     margin: 0;
     padding: 20px;
     background-color: #f4f4f4;
@@ -28,11 +35,11 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffcc00; /* Change this to your desired hover color */
+    color: #e2f10c; /* Change this to your desired hover color */
 }
 
 nav a:visited {
-    color: #ccc; /* Change this to your desired visited link color */
+    color: #ee0606; /* Change this to your desired visited link color */
 }
 
 
@@ -80,20 +87,27 @@ p {
 .color-box {
     padding: 10px;
     margin: 5px 0;
-    color: white; /* Text color for visibility */
+    color: black; /* Text color for visibility */
     font-weight: bold;
 }
 
 .primary-color {
-    background-color: #90ee90; /* Light Green */
+    background-color: #6AEBBA; /* Light teal */
+    color: black; /* Change text color to black for better contrast */
 }
 
 .secondary-color {
-    background-color: #007bff; /* Blue */
+    background-color: #6AEB8E; /* Light green */
+    color: black; /* Change text color to black for better contrast */
 }
 
 .accent-color {
     background-color: #ffffff; /* White */
     color: black; /* Change text color to black for better contrast */
     border: 1px solid black; /* Thin black border */
+}
+
+.accent-color2 {
+    background-color:#6AEBE6; /* sky blue */
+    color: black; /* Change text color to black for better contrast */
 }
