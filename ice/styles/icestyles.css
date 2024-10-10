@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #5ca1d7;
+    color: white
+}
+
+h1:hover {
+    color: black
+}
+
+.nelson {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+ol {
+    text-align: left;
+}
+li {
+    color: black;
+    font-weight: bold;
+}
+.quote {
+    font-size: 2.2em;
+ 
+}
+
+.bio {
+    width: 40%;
+}
+
+footer {
+    color: black;
+}
