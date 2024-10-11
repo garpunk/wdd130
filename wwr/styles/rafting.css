@@ -1,0 +1,104 @@
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;  /* Set the max-width of the page */
+    margin: 0 auto;     /* Center the content */
+    background-color: #f0f0f5; /* Add a nice background color */
+    color: black; /* Set all text to black */
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: black;  /* Set header text to black */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a {
+    color: white; /* Set header link text to black */
+    text-decoration: none;
+    margin: 0 15px;
+}
+header img {
+    width: 50px;
+}
+
+/* Hero banner styling */
+.hero-banner {
+    background-image: url('hero-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black; /* Set hero banner text to black */
+    text-align: center;
+    padding: 10px 20px;
+}
+.hero-banner h1 {
+    font-size: 3rem;
+    color: black; /* Ensure hero banner heading is black */
+}
+
+/* Cards section */
+.cards-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.card {
+    width: 30%;
+    background-color: #e8e8f0; /* Add a subtle background color */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: black; /* Set card text to black */
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Main section */
+.main-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    color: black; /* Set main section text to black */
+}
+.main-section img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white; /* Set footer text to black */
+    text-align: center;
+    padding: 20px 0;
+}
+footer p {
+    font-size: 1.2em; /* Make the footer font size a little larger */
+    color: black; /* Ensure footer paragraph text is black */
+}
+
+/* Links hover effects */
+a {
+    color: black; /* Set all link text to black */
+    text-decoration: none; /* Remove underline for text links */
+}
+a:hover {
+    color: #005b99; /* Change color on hover */
+    text-decoration: none; /* No underline on hover */
+}
+
+/* Social media links in footer */
+.social-media a {
+    margin: 0 10px;
+    color: white; /* Set social media link text to black */
+    text-decoration: none;
+}
+
