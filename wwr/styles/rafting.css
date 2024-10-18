@@ -8,7 +8,7 @@ body {
     margin: 0 auto;     /* Center the content */
     background-color: #f0f0f5; /* Add a nice background color */
     color: black; /* Set all text to black */
-    font-size: large;
+    font-size:larger
 }
 
 /* Header styling */
