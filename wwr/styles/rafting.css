@@ -20,7 +20,9 @@ header {
     justify-content: space-between;
     align-items: center;
     font-size: large;
-    border: #333;
+    border: 2px solid black;
+    box-sizing: border-box;
+  
   
 }
 header a {
