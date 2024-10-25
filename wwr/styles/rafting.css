@@ -1,13 +1,14 @@
 
 /* General body styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
     max-width: 1600px;  /* Set the max-width of the page */
     margin: 0 auto;     /* Center the content */
     background-color: #f0f0f5; /* Add a nice background color */
     color: black; /* Set all text to black */
+    font-size:larger
 }
 
 /* Header styling */
@@ -18,6 +19,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: large;
+    border: 2px solid black;
+    box-sizing: border-box;
+  
+  
 }
 header a {
     color: white; /* Set header link text to black */
@@ -52,6 +58,7 @@ header img {
     width: 30%;
     background-color: #e8e8f0; /* Add a subtle background color */
     padding: 20px;
+    border: #333;
     border-radius: 10px;
     text-align: center;
     color: black; /* Set card text to black */
